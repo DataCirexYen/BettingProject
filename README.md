@@ -14,7 +14,7 @@ Participants can claim their rewards in USDT tokens by calling this function aft
 ### Stop_Voting
 Only the owner can call this function to stop further voting and ensure the determination of winners is final.
 
-**Functionality** "It obviously requires approval to transfer allowances through the USDT IERC20 contract and the WINNER IERC20 contract
+**Functionality side note** "It obviously requires approval to transfer allowances through the USDT IERC20 contract and the WINNER IERC20 contract
 
 ## Deployment
 **1**Clone the GitHub repository to your local machine.
@@ -22,4 +22,4 @@ Only the owner can call this function to stop further voting and ensure the dete
 **1** Deploy the contracts to the Ethereum network of your choice. Change USDT address
 
 
-**Note**: The provided code is a simplified example, and in a real-world scenario, additional security measures, testing, and proper **handling of rewards distribution** should be implemented.
+**Warning**: The provided code is a simplified example, and in a real-world scenario, additional security measures, testing, and proper **handling of rewards distribution** should be implemented.
