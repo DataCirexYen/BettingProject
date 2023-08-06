@@ -1,5 +1,5 @@
 # BettingProject
-ElectTokens is a  voting protocol built on the Ethereum blockchain, allowing users to vote for different political options represented by ERC20 tokens. The project aims to promote community engagement and incentivize participation by rewarding users with tokens based on their winning bets.
+ElectTokens is a  voting protocol built on the Ethereum blockchain, allowing users to vote for different political options represented by ERC20 tokens. The project aims to promote community engagement and incentivize participation by rewarding users with tokens based on their winning bets. With some tweaks, this contract can initiate climate derivatives contracts
 
 ## Functions
 ### MintToken1
@@ -14,7 +14,7 @@ Participants can claim their rewards in USDT tokens by calling this function aft
 ### Stop_Voting
 Only the owner can call this function to stop further voting and ensure the determination of winners is final.
 
-**Functionality side note** "It obviously requires approval to transfer allowances through the USDT IERC20 contract and the WINNER IERC20 contract
+**Functionality side note** It obviously requires approval to transfer allowances through the USDT IERC20 contract and the WINNER IERC20 contract
 
 ## Deployment
 **1**Clone the GitHub repository to your local machine.
@@ -23,3 +23,4 @@ Only the owner can call this function to stop further voting and ensure the dete
 
 
 **Warning**: The provided code is a simplified example, and in a real-world scenario, additional security measures, testing, and proper **handling of rewards distribution** should be implemented.
+
