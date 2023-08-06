@@ -2,10 +2,10 @@
 ElectTokens is a  voting protocol built on the Ethereum blockchain, allowing users to vote for different political options represented by ERC20 tokens. The project aims to promote community engagement and incentivize participation by rewarding users with tokens based on their winning bets.
 
 ## Functions
-### mintToken1
+### MintToken1
 A function that allows users to vote for their preferred political option. Users send USDT to the contract, and in return, they receive ERC20 tokens corresponding to their chosen option.
 
-### determineWinners
+### DetermineWinners
 This function is called by the owner (election organizer) to determine the winning political option. It calculates the total contract balance and the total supply of tokens for the winning option to distribute rewards later.
 
 ### ReceiveReward
@@ -19,7 +19,7 @@ Only the owner can call this function to stop further voting and ensure the dete
 ## Deployment
 **1**Clone the GitHub repository to your local machine.
 
-**1** Deploy the contracts to the Ethereum network of your choice. Change USDT address
+**2** Deploy the contracts to the Ethereum network of your choice. Change USDT address
 
 
 **Warning**: The provided code is a simplified example, and in a real-world scenario, additional security measures, testing, and proper **handling of rewards distribution** should be implemented.
